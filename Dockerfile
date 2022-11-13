@@ -1,11 +1,11 @@
 FROM python
 
-RUN python3 -m venv /opt/speech
+RUN python3 -m venv flask
 
 # Install dependencies:
 COPY requirements.txt .
-RUN . /opt/speech/bin/activate && pip install -r requirements.txt
+RUN . flask/bin/activate && pip install -r requirements.txt
 
 # Run the application:
-COPY myapp.py .
-CMD . /opt/speech/bin/activate && exec python Speechrecognition.py
+COPY server.py .
+CMD . flask/bin/activate && exec python server.py

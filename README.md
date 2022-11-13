@@ -10,3 +10,8 @@ Run the container
 ```docker
 docker run -p 5000:5000 -d speech_trans
 ```
+View the APP at port 5000
+
+```basic
+localhost:5000
+```

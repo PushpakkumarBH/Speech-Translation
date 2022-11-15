@@ -15,7 +15,7 @@ h2{
   font-family:verdana;
 }
 body{
-  background-image: url('images/wave.jpeg');
+  background-image: url('/static/images/wave.jpeg');
   background-repeat: no-repeat;
   background-size: 70% 100%;
   background-attachment: fixed;

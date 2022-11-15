@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = '/home/username/uploads'
 
-@app.route('/upload')
+@app.route('/upload',methods = ['GET'])
 def upload_file():
    return render_template("upload.html")
 

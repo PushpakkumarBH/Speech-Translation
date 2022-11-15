@@ -1,0 +1,132 @@
+.upload {
+    position:absolute;
+    left:80%;
+    top:40%;
+
+}
+
+h2{
+  font: size 20px;;
+}  
+.header{
+  color:rgb(235, 235, 247);
+  font-size:300%;
+  text-align:center;
+  font-family:verdana;
+}
+body{
+  background-image: url('images/wave.jpeg');
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  background-attachment: fixed;
+}
+
+
+@media screen and (max-width:1187px){
+  body{
+     
+      background-size: 60% 100%;
+
+
+      
+
+    }
+    .header{
+      
+      text-align:left;
+      
+  }  
+  .upload {
+      position:absolute;
+      left:70%;
+      top:50%;
+
+    }
+
+
+}
+
+@media screen and (max-width:910px){
+  body{
+      background-size: 50% 100%;
+    }
+  .header{
+      float: left;
+    } 
+  .upload {
+      position:absolute;
+      left:70%;
+      top:60%;
+
+    }
+}
+
+@media screen and (max-width:767px){
+body{
+    background-size: 52% 100%;
+    
+  }
+.header{
+    float: left;
+    font: 3em sans-serif;
+
+  } 
+.upload {
+    position:absolute;
+    left:70%;
+    top:40%;
+    
+
+  }
+}
+@media screen and (max-width:600px){
+body{
+    background-size: 100% 60%;
+    
+  }
+.header{
+    font: 3.5em sans-serif;
+    text-align: center;
+
+  } 
+.upload {
+    position:absolute;
+    left:35%;
+    top:70%;
+  }
+}
+
+.btn-10 {
+background: rgb(12, 12, 12);
+background: linear-gradient(0deg, rgb(12, 12, 12) 0%, rgb(218, 219, 223) 100%);
+color: #fff;
+border: none;
+transition: all 0.3s ease;
+overflow: hidden;
+}
+.btn-10:after {
+position: absolute;
+content: " ";
+top: 0;
+left: 0;
+z-index: -1;
+width: 10%;
+height: 10%;
+transition: all 0.3s ease;
+-webkit-transform: scale(.1);
+transform: scale(.1);
+}
+.btn-10:hover {
+color: rgb(182, 177, 177);
+border: none;
+/* background: transparent; */
+}
+.btn-10:hover:after {
+background: rgb(16, 16, 17);
+background: linear-gradient(0deg, rgb(250, 251, 252) 50%,  rgb(252, 252, 253)100%);
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+
+
+
